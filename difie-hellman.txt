@@ -1,0 +1,8 @@
+chọn gốc nguyen thỷ của a là 3
+A chọn khoá bm xa = 9
+ya = a^xa mod 19 = 18
+b chọn khoá bm xb = 11
+yb = a^ xb mod 19 = 10
+
+A tinh k = yb ^xa mod 19 =18
+B tinh k = ya ^xb mod 19 =18

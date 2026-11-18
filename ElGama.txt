@@ -1,0 +1,22 @@
+thuật toán ElGamal
+
+theo định lý fermat a^(p-1) mod p = 1
+K = Ya^Xb mod p
+k^-1 = Ya ^ (p-1-Xb) mod p
+
+Thồng điệp P = 10
+vành p=19
+số nguyên thuỷ của p là a=2
+
+chọn Xa = 8, Xb = 10
+tính Ya = a^Xa mod p = 9
+tính Yb = a^Xb mod p =  17
+tính K = Yb^Xa mod p = 16
+
+MÃ HOÁ:
+A mã hoá P: C=K*P mod p = 8
+Bản mã C = 8 được gửi cho B
+
+GIẢI MÃ:
+P= C*K^-1 mod p
+K^-1 = Ya ^ (p-1-Xb) mod p = 
